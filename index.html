@@ -1,166 +1,347 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Medisch Centrum Blauwpoorte</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <meta name="google-site-verification" content="HVXaUaojSgxnLgEJo2lu3paptugJUto2oMAF3to3Tus" />
-    </head>
-    <body class="d-flex flex-column h-100">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" >
-                <div class="container px-5" >
-                    <a class="navbar-brand" href="index.html"><img src="/Medisch-Centrum-Blauwpoorte.github.io/assets/Web logo blauwpoorte.svg" width="150" height="100%" alt="Logo"></a>
-                    
-                    <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon" ></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" style="color: black;" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" style="color: black;" href="about.html">Aanbod</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" style="color: black;" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Het Team</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" style="color: black;" href="contact.html">Overzicht</a></li>
-                                    <li><a class="dropdown-item" style="color: black;" href="blog-post-christ.html">Dr. Christ Declerck</a></li>
-                                    <li><a class="dropdown-item" style="color: black;" href="blog-post-Ella.html">Dr. Ella ver donck</a></li>
-                                    <li><a class="dropdown-item" style="color: black;" href="blog-post-Stephanie.html">Stephanie Struyve</a></li>
-                                </ul>
-                                <li class="nav-item"><a class="nav-link" style="color: black;" href="faq.html">FAQ</a></li>
-                                <li class="nav-item"><a class="nav-link" style="color: black;" href="pricing.html">Artsen</a></li>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- Header-->
-            <header class="bg-image py-5 img-fluid"
-            style="height:75vh;  background-repeat: no-repeat;  background-image: url('//Medisch-Centrum-Blauwpoorte.github.io/assets/voorkantblur.jpg'); background-attachment: fixed; background-size: cover; ">
-            
-                <div class="container px-5">
-                    <div class="row gx-5 align-items-center justify-content-center">
-                        <div class="col-lg-8 col-xl-7 col-xxl-6">
-                            <div class="my-5 text-center text-xl-start">
-                                <h1 class="display-5 fw-bolder text-white mb-2">Medisch Centrum Blauwpoorte.</h1>
-                                <p class="lead fw-normal text-white-50 mb-4">Ons doel is om u te helpen bij het beheersen en verminderen van pijn, voor een betere levenskwaliteit.</p>
-                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="https://mynexuz.be/afspraken/maak-afspraak?ziekenhuisCode=AZSJ&groupIdentifier=AZSJ_Afspraak%20maken&beslissingsboom_vragenlijstCode=AZSJ_beslissingsboom_4026" target="_blank">Maak een afspraak online</a>
-                                    
-                                    <a class="btn btn-outline-light btn-lg px-4 "  href="about.html">Aanbod</a>
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>document.documentElement.classList.add('js');</script>
+  <meta name="description" content="Medisch Centrum Blauwpoorte in Izegem — gespecialiseerde pijnkliniek. Maak online een afspraak of bel ons.">
+  <meta name="google-site-verification" content="HVXaUaojSgxnLgEJo2lu3paptugJUto2oMAF3to3Tus" />
+  <title>Medisch Centrum Blauwpoorte — Pijnkliniek Izegem</title>
+  <link rel="icon" href="images/Web logo blauwpoorte.svg" type="image/svg+xml">
+  <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="preload" as="image" href="images/buitenkant.jpg">
+  <link rel="stylesheet" href="css/style.css">
 
-                                    
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"></div>
-                    </div>
-                </div>
-                
-            </header>
-            
-            <!-- Features section-->
-            <section class="py-5" id="features">
-                <div class="container px-5 my-5">
-                    <div class="row gx-5">
-                        <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">Waarvoor kunt u in Medisch Centrum blauwpoorte terecht</h2></div>
-                        <div class="col-lg-8">
-                            <div class="row gx-5 row-cols-1 row-cols-md-2">
-                                <div class="col mb-5 h-100">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-heart-pulse-fill"></i></div>
-                                    <h2 class="h5">Rug- en nekklachten</h2>
-                                    <p class="mb-0">Acuut of lang bestaand door nek of rug <b>hernia</b> met uitstralende klachten in armen of benen. Chronische nek en rugpijn door <b>arthrose</b></p>
-                                </div>
-                                <div class="col mb-5 h-100">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-person-bounding-box"></i></div>
-                                    <h2 class="h5">Hoofd -en aangezichtspijn</h2>
-                                    <p class="mb-0">Intense pijn in het aangezicht. Pijn vanuit de hals over het hoofd door arthrose: <b>cervicogene hoofdpijn.</b> Cluster en occipitale hoofdpijn.</p>
-                                </div>
-                                <div class="col mb-5 mb-md-0 h-100">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-terminal"></i></div>
-                                    <h2 class="h5">Zenuwpijnen</h2>
-                                    <p class="mb-0">Doorheen het hele lichaam.
-                                        Bekende symptomen van <b>zenuwpijn</b> zijn heftige pijnscheuten, een brandend gevoel of krampen in de zenuw.</p>
-                                </div>
-                                <div class="col h-100">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-person-walking"></i></div>
-                                    <h2 class="h5">Gewrichtsklachten</h2>
-                                    <p class="mb-0">Door arthrose, chronische <b>peesletsels</b> , acute peesinflammatie  thv schouder, elleboog, pols, heup knie en voeten</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Testimonial section-->
-            <div class="py-5 bg-light">
-                <div class="container px-5 my-5">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-lg-10 col-xl-7">
-                            <div class="text-center">
-                                <div class="fs-4 mb-4 fst-italic">"Onze betrokkenheid bij uw welzijn eindigt niet wanneer u onze kliniek verlaat. We zullen regelmatige opvolgafspraken plannen om uw vooruitgang te evalueren, eventuele veranderingen aan te brengen in het behandelplan indien nodig, en om uw vragen te beantwoorden."</div>
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <img class="rounded-circle me-3" src="/Medisch-Centrum-Blauwpoorte.github.io/assets/christ gezicht.jpg" alt="..." />
-                                    <div class="fw-bold">
-                                        Dr. Christ Declerck
-                                        <span class="fw-bold text-primary mx-1">/</span>
-                                        MD, FIPP, CIPS, ASRA-PMUC
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <!-- Open Graph / sociale media -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Medisch Centrum Blauwpoorte">
+  <meta property="og:locale" content="nl_BE">
+  <meta property="og:title" content="Medisch Centrum Blauwpoorte — Pijnkliniek Izegem">
+  <meta property="og:description" content="Gespecialiseerde pijnkliniek in Izegem. Maak online een afspraak of bel ons.">
+  <meta property="og:image" content="images/buitenkant.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Gestructureerde data (schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "name": "Medisch Centrum Blauwpoorte",
+    "description": "Private pijnkliniek in Izegem, België.",
+    "image": "images/buitenkant.jpg",
+    "logo": "images/Web logo blauwpoorte.svg",
+    "telephone": "+3251436770",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Patrick Sercudreef 39/0001",
+      "postalCode": "8870",
+      "addressLocality": "Izegem",
+      "addressCountry": "BE"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday",    "opens": "18:00", "closes": "20:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "18:00", "closes": "20:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday",  "opens": "13:30", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday",    "opens": "09:00", "closes": "12:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday",  "opens": "09:00", "closes": "12:00" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#hoofdinhoud">Ga naar hoofdinhoud</a>
+
+  <!-- ===== NAVIGATIE ===== -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav" aria-label="Hoofdnavigatie">
+        <a href="index.html" class="nav__logo" aria-label="Medisch Centrum Blauwpoorte — home">
+          <img src="images/Web logo blauwpoorte.svg" alt="" width="180" height="52" aria-hidden="true">
+
+        </a>
+        <button type="button" class="nav__hamburger" aria-expanded="false" aria-controls="nav-menu" aria-label="Menu openen of sluiten">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav__links" id="nav-menu" role="list">
+          <li><a href="index.html" class="actief" aria-current="page">Home</a></li>
+          <li><a href="aanbod.html">Ons Aanbod</a></li>
+          <li><a href="team.html">Ons Team</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="doorverwijzing.html">Voor Artsen</a></li>
+          <li class="nav__afspraak">
+            <a href="https://mynexuz.be/afspraken/maak-afspraak?ziekenhuisCode=AZSJ&amp;groupIdentifier=AZSJ_Afspraak%20maken&amp;beslissingsboom_vragenlijstCode=AZSJ_beslissingsboom_4026"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Maak een afspraak (opent externe website)">
+              Afspraak maken
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="hoofdinhoud" tabindex="-1">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-labelledby="hero-titel">
+      <div class="container">
+        <div class="hero__inhoud">
+          <span class="hero__label">Pijnkliniek Izegem</span>
+          <h1 id="hero-titel">Medisch Centrum Blauwpoorte</h1>
+          <p class="hero__tagline">
+            Ons doel is om u te helpen bij het beheersen en verminderen van pijn,
+            voor een betere levenskwaliteit.
+          </p>
+          <div class="hero__knoppen">
+            <a href="https://mynexuz.be/afspraken/maak-afspraak?ziekenhuisCode=AZSJ&amp;groupIdentifier=AZSJ_Afspraak%20maken&amp;beslissingsboom_vragenlijstCode=AZSJ_beslissingsboom_4026"
+               target="_blank" rel="noopener noreferrer"
+               class="knop"
+               aria-label="Maak een afspraak via mynexuz (opent externe website)">
+              Afspraak maken
+            </a>
+            <a href="aanbod.html" class="knop knop--omrand">
+              Ons aanbod bekijken
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WAARVOOR KUNT U TERECHT ===== -->
+    <section class="section section--grijs" aria-labelledby="aanbod-titel">
+      <div class="container">
+        <div class="sectie-titel reveal">
+          <h2 id="aanbod-titel">Waarvoor kunt u bij ons terecht?</h2>
+          <p>Wij behandelen een breed spectrum van pijnklachten met een persoonlijke en multidisciplinaire aanpak.</p>
+        </div>
+        <div class="aanbod-grid reveal-groep">
+          <article class="aanbod-kaart reveal">
+            <div class="aanbod-kaart__icoon" aria-hidden="true">
+              <!-- Wervelkolom -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="8" y="2" width="8" height="4" rx="1.5"/>
+                <rect x="8" y="10" width="8" height="4" rx="1.5"/>
+                <rect x="8" y="18" width="8" height="4" rx="1.5"/>
+                <line x1="12" y1="6" x2="12" y2="10"/>
+                <line x1="12" y1="14" x2="12" y2="18"/>
+              </svg>
             </div>
-            <!-- Blog preview section-->
-            <section class="py-5">
-                <div class="container px-5 my-5">
-                    <!-- Call to action-->
-                    <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
-                        <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start ">
-                            <div class="mb-4 mb-xl-0 ">
-                                <div class="fs-3 fw-bold text-white ">Maak een afspraak</div>
-                                <div class="text-white-50 "><a style= "color: rgba(255, 255, 255, 0.9); text-decoration: none;" href="Tel:+3250452580">AZ Sint-Jan +3250452580 </a></div>
-                                <div class="text-white-50"><a style="color: rgb(255, 255, 255, 0.9);text-decoration: none;" href="Tel:+3250365925">AZ Sint-Lucas +3250365925</a></div>
-                                <div class="text-white-50"><a style="color: rgb(255, 255, 255, 0.9);text-decoration: none;" href="Tel:+3251425726">Sint-Andries Tielt +3251425726</a></div>
-                            </div>
-                            <div class="ms-xl-4">
-                                <div class="input-group">
-                                    <button target="_blank" onclick="location.href='https://mynexuz.be/afspraken/maak-afspraak?ziekenhuisCode=AZSJ&groupIdentifier=AZSJ_Afspraak%20maken&beslissingsboom_vragenlijstCode=AZSJ_beslissingsboom_4026'"   class="btn btn-outline-light" id="button-newsletter" type="button" style="margin: auto; ">Online afspraak te maken</button>
-                                </div>
-                                <div class="small text-white-50">Met deze link kan je via mynexuz een afspraak maken</div>
-                            </div>
-                        </div>
-                    </aside>
-                </div>
-            </section>
-        </main>
-        <!-- Footer-->
-        <footer class="bg-light py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-black">Copyright &copy; Medisch-Centrum-Blauwpoorte 2024</div></div>
-                    <div class="col-auto">
-                        <a class="link-dark small" href="#!">Privacy</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-dark small" href="#!">Terms</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-dark small" href="#!">Contact</a>
-                    </div>
-                </div>
+            <h3>Rug- en nekklachten</h3>
+            <p>Acuut of langbestaand, hernia met uitstralende klachten in armen of benen, chronische pijn door arthrose.</p>
+          </article>
+          <article class="aanbod-kaart reveal">
+            <div class="aanbod-kaart__icoon" aria-hidden="true">
+              <!-- Hoofd met pijnuitstraling -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                <circle cx="12" cy="14" r="6"/>
+                <line x1="12" y1="2" x2="12" y2="5"/>
+                <line x1="18.4" y1="5.6" x2="16.3" y2="7.7"/>
+                <line x1="5.6" y1="5.6" x2="7.7" y2="7.7"/>
+              </svg>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+            <h3>Hoofd- en aangezichtspijn</h3>
+            <p>Intense aangezichtspijn, cervicogene hoofdpijn, cluster- en occipitale hoofdpijn.</p>
+          </article>
+          <article class="aanbod-kaart reveal">
+            <div class="aanbod-kaart__icoon" aria-hidden="true">
+              <!-- Bliksem / zenuwpijn -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M13 2L4 13h7l-1 9 9-11h-7l1-9z"/>
+              </svg>
+            </div>
+            <h3>Zenuwpijnen</h3>
+            <p>Doorheen het hele lichaam: heftige pijnscheuten, brandend gevoel of krampen vanuit een zenuw.</p>
+          </article>
+          <article class="aanbod-kaart reveal">
+            <div class="aanbod-kaart__icoon" aria-hidden="true">
+              <!-- Gewricht -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                <circle cx="6" cy="6" r="4"/>
+                <circle cx="18" cy="18" r="4"/>
+                <line x1="9.5" y1="9.5" x2="14.5" y2="14.5"/>
+              </svg>
+            </div>
+            <h3>Gewrichtsklachten</h3>
+            <p>Arthrose, chronische peesletsels, acute peesontstekingen ter hoogte van schouder, heup, knie en meer.</p>
+          </article>
+        </div>
+        <div class="tekst-centraal mt-2 reveal">
+          <a href="aanbod.html" class="knop knop--omrand">Bekijk alle behandelingen</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== QUOTE ===== -->
+    <section class="quote-sectie" aria-label="Citaat">
+      <div class="container">
+        <blockquote class="reveal">
+          Onze betrokkenheid bij uw welzijn eindigt niet wanneer u onze kliniek verlaat.
+          We zullen regelmatige opvolgafspraken plannen om uw vooruitgang te evalueren,
+          eventuele veranderingen aan te brengen in het behandelplan indien nodig,
+          en om uw vragen te beantwoorden.
+        </blockquote>
+        <p class="quote__naam">Dr. Christ Declerck &mdash; MD, FIPP, CIPS, ASRA-PMUC</p>
+      </div>
+    </section>
+
+    <!-- ===== ONS TEAM (teaser) ===== -->
+    <section class="team-teaser" aria-labelledby="team-titel">
+      <div class="team-teaser__foto reveal">
+        <img src="images/Team buiten.jpg" alt="Het team van Medisch Centrum Blauwpoorte" loading="lazy">
+      </div>
+      <div class="team-teaser__inhoud reveal">
+        <h2 id="team-titel">Een ervaren team staat voor u klaar</h2>
+        <p>
+          Medisch Centrum Blauwpoorte staat de patiënt centraal.
+          Ons team combineert jarenlange specialistische expertise met een warme, persoonlijke aanpak.
+        </p>
+        <a href="team.html" class="knop">Ontmoet ons team</a>
+      </div>
+    </section>
+
+    <!-- ===== PRAKTIJKFOTO'S ===== -->
+    <section class="section" aria-labelledby="praktijk-titel">
+      <div class="container">
+        <div class="sectie-titel reveal">
+          <h2 id="praktijk-titel">Een kijkje in onze praktijk</h2>
+          <p>Moderne faciliteiten in een rustige en toegankelijke omgeving.</p>
+        </div>
+        <div class="foto-strook reveal-groep">
+          <figure class="reveal">
+            <img src="images/inkom.jpg" alt="De inkomhal van Medisch Centrum Blauwpoorte" loading="lazy">
+          </figure>
+          <figure class="reveal">
+            <img src="images/wachtzaal.jpg" alt="De wachtzaal van de praktijk" loading="lazy">
+          </figure>
+          <figure class="reveal">
+            <img src="images/apparaten.jpg" alt="Moderne medische apparatuur voor pijnbehandeling" loading="lazy">
+          </figure>
+          <figure class="reveal">
+            <img src="images/revalidatie.jpg" alt="De revalidatieruimte van de praktijk" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== AFSPRAAK CTA ===== -->
+    <section class="section section--grijs" aria-labelledby="cta-titel">
+      <div class="container">
+        <div class="cta-blok reveal">
+          <h2 id="cta-titel">Klaar om een afspraak te maken?</h2>
+          <p>
+            U kunt online een afspraak inplannen via het patiëntenportaal, of telefonisch
+            contact opnemen met één van onze locaties.
+          </p>
+          <div class="cta-blok__knoppen">
+            <a href="https://mynexuz.be/afspraken/maak-afspraak?ziekenhuisCode=AZSJ&amp;groupIdentifier=AZSJ_Afspraak%20maken&amp;beslissingsboom_vragenlijstCode=AZSJ_beslissingsboom_4026"
+               target="_blank" rel="noopener noreferrer"
+               class="knop"
+               aria-label="Online afspraak maken (opent externe website)">
+              Online afspraak maken
+            </a>
+            <a href="faq.html" class="knop knop--omrand">Veelgestelde vragen</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+
+        <div>
+          <p class="footer__naam">Medisch Centrum Blauwpoorte</p>
+          <p class="footer__tagline">Ons doel is om u te helpen bij het beheersen en verminderen van pijn, voor een betere levenskwaliteit.</p>
+          <address class="footer__adres">
+            Patrick Sercudreef 39/0001<br>
+            8870 Izegem
+          </address>
+        </div>
+
+        <div>
+          <p class="footer__titel">Navigatie</p>
+          <ul class="footer__nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aanbod.html">Ons Aanbod</a></li>
+            <li><a href="team.html">Ons Team</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="doorverwijzing.html">Voor Artsen</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer__titel">Afspraak maken</p>
+          <ul class="footer__tel-lijst">
+            <li class="footer__tel-item">
+              <span>AZ Sint-Jan</span>
+              <a href="tel:+3250452580">+32 50 45 25 80</a>
+            </li>
+            <li class="footer__tel-item">
+              <span>AZ Sint-Lucas</span>
+              <a href="tel:+3250365925">+32 50 36 59 25</a>
+            </li>
+            <li class="footer__tel-item">
+              <span>Sint-Andries Tielt</span>
+              <a href="tel:+3251425726">+32 51 42 57 26</a>
+            </li>
+          </ul>
+          <div class="footer__online">
+            <a href="https://mynexuz.be/afspraken/maak-afspraak?ziekenhuisCode=AZSJ&amp;groupIdentifier=AZSJ_Afspraak%20maken&amp;beslissingsboom_vragenlijstCode=AZSJ_beslissingsboom_4026"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Online afspraak maken (opent externe website)">
+              Online afspraak →
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <p class="footer__titel">Openingsuren</p>
+          <p class="footer__status" id="open-status" hidden></p>
+          <div class="footer__uren">
+            <div class="footer__uren-rij">
+              <span class="footer__uren-dag">Maandag</span>
+              <span class="footer__uren-tijd">18:00–20:30</span>
+            </div>
+            <div class="footer__uren-rij">
+              <span class="footer__uren-dag">Dinsdag</span>
+              <span class="footer__uren-tijd gesloten">Gesloten</span>
+            </div>
+            <div class="footer__uren-rij">
+              <span class="footer__uren-dag">Woensdag</span>
+              <span class="footer__uren-tijd">18:00–20:30</span>
+            </div>
+            <div class="footer__uren-rij">
+              <span class="footer__uren-dag">Donderdag</span>
+              <span class="footer__uren-tijd">13:30–18:00</span>
+            </div>
+            <div class="footer__uren-rij">
+              <span class="footer__uren-dag">Vrijdag</span>
+              <span class="footer__uren-tijd">09:00–12:00</span>
+            </div>
+            <div class="footer__uren-rij">
+              <span class="footer__uren-dag">Zaterdag</span>
+              <span class="footer__uren-tijd">09:00–12:00</span>
+            </div>
+            <div class="footer__uren-rij">
+              <span class="footer__uren-dag">Zondag</span>
+              <span class="footer__uren-tijd gesloten">Gesloten</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="footer__bodem">
+        <p>&copy; <span id="copyright-jaar">2026</span> Medisch Centrum Blauwpoorte &mdash; Patrick Sercudreef 39/0001, 8870 Izegem</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
 </html>

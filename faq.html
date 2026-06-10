@@ -1,233 +1,408 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Medisch Centrum Blauwpoorte</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body class="d-flex flex-column h-100">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" >
-                <div class="container px-5" >
-                    <a class="navbar-brand" href="index.html"><img src="/Medisch-Centrum-Blauwpoorte.github.io/assets/Web logo blauwpoorte.svg" width="150" height="100%" alt="Logo"></a>
-                    
-                    <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon" ></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" style="color: black;" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" style="color: black;" href="about.html">Aanbod</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" style="color: black;" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Het Team</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" style="color: black;" href="contact.html">Overzicht</a></li>
-                                    <li><a class="dropdown-item" style="color: black;" href="blog-post-christ.html">Dr. Christ Declerck</a></li>
-                                    <li><a class="dropdown-item" style="color: black;" href="blog-post-Ella.html">Dr. Ella ver donck</a></li>
-                                    <li><a class="dropdown-item" style="color: black;" href="blog-post-Stephanie.html">Stephanie Struyve</a></li>
-                                </ul>
-                                <li class="nav-item"><a class="nav-link" style="color: black;" href="faq.html">FAQ</a></li>
-                                <li class="nav-item"><a class="nav-link" style="color: black;" href="pricing.html">Artsen</a></li>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- Page Content-->
-            <section class="py-5">
-                <div class="container px-5 my-5">
-                    <div class="text-center mb-5">
-                        <h1 class="fw-bolder">Frequently Asked Questions</h1>
-                        <p class="lead fw-normal text-muted mb-0">Hoe kunnen we je helpen?</p>
-                    </div>
-                    <div class="row gx-5">
-                        <div class="col-xl-8">
-                            <!-- FAQ Accordion 1-->
-                            <h2 class="fw-bolder mb-3">Afspraken &amp; betalingen</h2>
-                            <div class="accordion mb-5" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Hoe maak ik een afspraak?</button></h3>
-                                    <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <strong>Hoe maak je een afspraak</strong> (verdere uitleg volgt nog)
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Ik heb geen "It's me" wat nu?</button></h3>
-                                    <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <strong>It's me</strong>
-                                            (verdere uitleg volgt nog)
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingThree"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Ik wil mijn afspraak veranderen</button></h3>
-                                    <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <strong>Het veranderen van een afspraak</strong>
-                                            (verdere uitleg volgt nog)
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- FAQ Accordion 2-->
-                            <h2 class="fw-bolder mb-3">Hoe geraak ik er?</h2>
-                            <div class="accordion mb-5 mb-xl-0" id="accordionExample2">
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">Parking</button></h3>
-                                    <div class="accordion-collapse collapse show" id="collapseOne2" aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
-                                        <div class="accordion-body">
-                                            <strong>Parking</strong>
-                                            (verdere uitleg volgt nog)
+﻿<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>document.documentElement.classList.add('js');</script>
+  <meta name="description" content="Veelgestelde vragen over afspraken, betalingen, bereikbaarheid en behandelingen bij Medisch Centrum Blauwpoorte in Izegem.">
+  <title>FAQ | Medisch Centrum Blauwpoorte</title>
+  <link rel="icon" href="images/Web logo blauwpoorte.svg" type="image/svg+xml">
+  <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/style.css">
 
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">Route met de auto</button></h3>
-                                    <div class="accordion-collapse collapse" id="collapseTwo2" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
-                                        <div class="accordion-body">
-                                            <strong>Route</strong>
-                                            (verdere uitleg volgt nog)
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingThree"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">Rolstoel toegangelijk?</button></h3>
-                                    <div class="accordion-collapse collapse" id="collapseThree2" aria-labelledby="headingThree" data-bs-parent="#accordionExample2">
-                                        <div class="accordion-body">
-                                            <strong>Rolstoel toegangkelijkheid</strong>
-                                            (verdere uitleg volgt nog)
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+  <!-- Open Graph / sociale media -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Medisch Centrum Blauwpoorte">
+  <meta property="og:locale" content="nl_BE">
+  <meta property="og:title" content="FAQ | Medisch Centrum Blauwpoorte">
+  <meta property="og:description" content="Veelgestelde vragen over afspraken, betalingen, bereikbaarheid en behandelingen bij Medisch Centrum Blauwpoorte in Izegem.">
+  <meta property="og:image" content="images/buitenkant.jpg">
+  <meta name="twitter:card" content="summary_large_image">
 
-                            
-                        </div>
-                        
-                        <div class="col-xl-4">
-                            <div class="card border-0 bg-light mt-xl-5">
-                                <div class="card-body p-4 py-lg-5">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <div class="text-center">
-                                            <div class="h6 fw-bolder">Maak een afspraak</div>
-                                            <p class="text-muted mb-4">
-                                            
-                                               
-                                                <a href="#!">AZ Sint-Jan +3250452580</a><br>
-                                                <a href="#!">AZ Sint-Lucas +3250365925</a><br>
-                                                <a href="#!">Sint-Andries Tielt +3251425726</a>
-                                            </p>
-                                            <div class="h6 fw-bolder">Follow us</div>
-                                            <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-twitter"></i></a>
-                                            <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-facebook"></i></a>
-                                            <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-linkedin"></i></a>
-                                            <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-youtube"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-<br>
-                    <div class="bg-light rounded-3 py-5 px-4 px-md-5 mb-5">
-                        <div class="text-center mb-5">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
-                            <h1 class="fw-bolder">Toch nog een vraag?</h1>
-                            <p class="lead fw-normal text-muted mb-0">Dan beantwoorden we die graag via mail</p>
-                        </div>
-                        <div class="row gx-5 justify-content-center">
-                            <div class="col-lg-8 col-xl-6">
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- * * SB Forms Contact Form * *-->
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- This form is pre-integrated with SB Forms.-->
-                                <!-- To make this form functional, sign up at-->
-                                <!-- https://startbootstrap.com/solution/contact-forms-->
-                                <!-- to get an API token!-->
-                                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                                    <!-- Name input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                        <label for="name">Voor en achternaam</label>
-                                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                                    </div>
-                                    <!-- Email address input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                        <label for="email">Email address</label>
-                                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                                    </div>
-                                    <!-- Phone number input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                        <label for="phone">Telefoon nummer</label>
-                                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                                    </div>
-                                    <!-- Message input-->
-                                    <div class="form-floating mb-3">
-                                        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                        <label for="message">Vraag</label>
-                                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                                    </div>
-                                    <!-- Submit success message-->
-                                    <!---->
-                                    <!-- This is what your users will see when the form-->
-                                    <!-- has successfully submitted-->
-                                    <div class="d-none" id="submitSuccessMessage">
-                                        <div class="text-center mb-3">
-                                            <div class="fw-bolder">Form submission successful!</div>
-                                            To activate this form, sign up at
-                                            <br />
-                                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                        </div>
-                                    </div>
-                                    <!-- Submit error message-->
-                                    <!---->
-                                    <!-- This is what your users will see when there is-->
-                                    <!-- an error submitting the form-->
-                                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                                    <!-- Submit Button-->
-                                    <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Verzenden</button></div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <!-- Gestructureerde data (schema.org FAQPage) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Hoe maak ik een afspraak?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "U kunt op twee manieren een afspraak maken: online via het patiëntenportaal mynexuz, of telefonisch via AZ Sint-Jan (+32 50 45 25 80), AZ Sint-Lucas (+32 50 36 59 25) of Sint-Andries Tielt (+32 51 42 57 26)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe geraak ik er?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Medisch Centrum Blauwpoorte is gevestigd op Patrick Sercudreef 39/0001, 8870 Izegem. U kunt het adres ingeven in uw navigatieapp voor de meest actuele routebeschrijving."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat zijn de openingsuren?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Maandag 18:00–20:30, dinsdag gesloten, woensdag 18:00–20:30, donderdag 13:30–18:00, vrijdag 09:00–12:00, zaterdag 09:00–12:00, zondag gesloten."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat moet ik meebrengen naar mijn eerste afspraak?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Breng uw identiteitskaart of rijksregisternummer mee, eventuele medische beeldvorming (MRI, CT-scan, röntgenfoto's), recente bloedresultaten indien beschikbaar, een lijst van uw huidige medicatie, en een doorverwijzingsbrief van uw huisarts of specialist."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wordt mijn behandeling terugbetaald?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Wij raden u aan om vooraf te informeren bij uw mutualiteit over uw persoonlijke situatie. Ons secretariaat staat u graag te woord bij verdere vragen hierover."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe lang duurt een eerste consultatie?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Een eerste consultatie duurt gemiddeld 30 tot 45 minuten. De arts neemt de tijd voor een grondig klinisch onderzoek, bespreking van uw klachten en medische voorgeschiedenis, en het opstellen van een diagnostisch en therapeutisch plan."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#hoofdinhoud">Ga naar hoofdinhoud</a>
 
-                
-            </section>
-            
-        </main>
-        <!-- Footer-->
-        <footer class="bg-light py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-black">Copyright &copy; Medisch-Centrum-Blauwpoorte 2024</div></div>
-                    <div class="col-auto">
-                        <a class="link-dark small" href="#!">Privacy</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-dark small" href="#!">Terms</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-dark small" href="#!">Contact</a>
-                    </div>
-                </div>
+  <!-- ===== NAVIGATIE ===== -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav" aria-label="Hoofdnavigatie">
+        <a href="index.html" class="nav__logo" aria-label="Medisch Centrum Blauwpoorte — home">
+          <img src="images/Web logo blauwpoorte.svg" alt="" width="180" height="52" aria-hidden="true">
+
+        </a>
+        <button type="button" class="nav__hamburger" aria-expanded="false" aria-controls="nav-menu" aria-label="Menu openen of sluiten">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav__links" id="nav-menu" role="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aanbod.html">Ons Aanbod</a></li>
+          <li><a href="team.html">Ons Team</a></li>
+          <li><a href="faq.html" class="actief" aria-current="page">FAQ</a></li>
+          <li><a href="doorverwijzing.html">Voor Artsen</a></li>
+          <li class="nav__afspraak">
+            <a href="https://mynexuz.be/afspraken/maak-afspraak?ziekenhuisCode=AZSJ&amp;groupIdentifier=AZSJ_Afspraak%20maken&amp;beslissingsboom_vragenlijstCode=AZSJ_beslissingsboom_4026"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Maak een afspraak (opent externe website)">
+              Afspraak maken
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="hoofdinhoud" tabindex="-1">
+
+    <!-- ===== PAGINA-HEADER ===== -->
+    <section class="pagina-header">
+      <div class="container">
+        <nav class="broodkruimel" aria-label="Broodkruimelpad">
+          <a href="index.html">Home</a> &rsaquo; FAQ
+        </nav>
+        <h1>Veelgestelde vragen</h1>
+        <p>Hier vindt u antwoorden op de meest gestelde vragen over afspraken, bereikbaarheid en behandelingen.</p>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section">
+      <div class="container">
+
+        <!-- Afspraken & betalingen -->
+        <div class="sectie-titel reveal">
+          <h2>Afspraken &amp; betalingen</h2>
+        </div>
+
+        <div class="faq-lijst reveal-groep" role="list">
+
+          <!-- Vraag 1 -->
+          <div class="faq-item reveal" role="listitem">
+            <button type="button" class="faq-item__vraag"
+                    id="vraag-1"
+                    aria-expanded="false"
+                    aria-controls="antwoord-1">
+              Hoe maak ik een afspraak?
+              <span class="faq-item__icoon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-item__antwoord"
+                 id="antwoord-1">
+              <div class="faq-item__antwoord-inner">
+              <p>U kunt op twee manieren een afspraak maken:</p>
+              <ul>
+                <li>
+                  <strong>Online</strong> via het patiëntenportaal mynexuz:
+                  <a href="https://mynexuz.be/afspraken/maak-afspraak?ziekenhuisCode=AZSJ&amp;groupIdentifier=AZSJ_Afspraak%20maken&amp;beslissingsboom_vragenlijstCode=AZSJ_beslissingsboom_4026"
+                     target="_blank" rel="noopener noreferrer"
+                     aria-label="Online afspraak maken via mynexuz (opent externe website)">
+                    Klik hier om online een afspraak te maken
+                  </a>
+                </li>
+                <li>
+                  <strong>Telefonisch</strong> via één van onze ziekenhuislocaties:
+                  <ul style="margin-top: 0.4rem;">
+                    <li>AZ Sint-Jan: <a href="tel:+3250452580">+32 50 45 25 80</a></li>
+                    <li>AZ Sint-Lucas: <a href="tel:+3250365925">+32 50 36 59 25</a></li>
+                    <li>Sint-Andries Tielt: <a href="tel:+3251425726">+32 51 42 57 26</a></li>
+                  </ul>
+                </li>
+              </ul>
+              </div>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+          </div>
+
+          <!-- Vraag 2 -->
+          <div class="faq-item reveal" role="listitem">
+            <button type="button" class="faq-item__vraag"
+                    id="vraag-2"
+                    aria-expanded="false"
+                    aria-controls="antwoord-2">
+              Hoe geraak ik er?
+              <span class="faq-item__icoon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-item__antwoord"
+                 id="antwoord-2">
+              <div class="faq-item__antwoord-inner">
+              <p>
+                Medisch Centrum Blauwpoorte is gevestigd op het volgende adres:<br>
+                <strong>Patrick Sercudreef 39/0001, 8870 Izegem</strong>
+              </p>
+              <p>
+                U kunt ons adres ingeven in uw navigatieapp (Google Maps, Waze, enz.)
+                voor de meest actuele routebeschrijving.
+              </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vraag 3 -->
+          <div class="faq-item reveal" role="listitem">
+            <button type="button" class="faq-item__vraag"
+                    id="vraag-3"
+                    aria-expanded="false"
+                    aria-controls="antwoord-3">
+              Wat zijn de openingsuren?
+              <span class="faq-item__icoon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-item__antwoord"
+                 id="antwoord-3">
+              <div class="faq-item__antwoord-inner">
+              <table class="uren-tabel" aria-label="Openingsuren Medisch Centrum Blauwpoorte">
+                <tbody>
+                  <tr><td>Maandag</td><td>18:00 – 20:30</td></tr>
+                  <tr><td>Dinsdag</td><td class="gesloten">Gesloten</td></tr>
+                  <tr><td>Woensdag</td><td>18:00 – 20:30</td></tr>
+                  <tr><td>Donderdag</td><td>13:30 – 18:00</td></tr>
+                  <tr><td>Vrijdag</td><td>09:00 – 12:00</td></tr>
+                  <tr><td>Zaterdag</td><td>09:00 – 12:00</td></tr>
+                  <tr><td>Zondag</td><td class="gesloten">Gesloten</td></tr>
+                </tbody>
+              </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vraag 4 -->
+          <div class="faq-item reveal" role="listitem">
+            <button type="button" class="faq-item__vraag"
+                    id="vraag-4"
+                    aria-expanded="false"
+                    aria-controls="antwoord-4">
+              Wat moet ik meebrengen naar mijn eerste afspraak?
+              <span class="faq-item__icoon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-item__antwoord"
+                 id="antwoord-4">
+              <div class="faq-item__antwoord-inner">
+              <p>Voor uw eerste afspraak is het nuttig het volgende mee te brengen:</p>
+              <ul>
+                <li>Identiteitskaart of rijksregisternummer</li>
+                <li>Eventuele medische beeldvorming (MRI, CT-scan, röntgenfoto's)</li>
+                <li>Recente bloedresultaten indien beschikbaar</li>
+                <li>Een lijst van uw huidige medicatie</li>
+              </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vraag 5 -->
+          <div class="faq-item reveal" role="listitem">
+            <button type="button" class="faq-item__vraag"
+                    id="vraag-5"
+                    aria-expanded="false"
+                    aria-controls="antwoord-5">
+              Wordt mijn behandeling terugbetaald?
+              <span class="faq-item__icoon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-item__antwoord"
+                 id="antwoord-5">
+              <div class="faq-item__antwoord-inner">
+              <p>
+                Wij raden u aan om vooraf te informeren bij uw mutualiteit over uw persoonlijke situatie.
+                Ons secretariaat staat u graag te woord bij verdere vragen hierover.
+              </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vraag 6 -->
+          <div class="faq-item reveal" role="listitem">
+            <button type="button" class="faq-item__vraag"
+                    id="vraag-6"
+                    aria-expanded="false"
+                    aria-controls="antwoord-6">
+              Heb ik een doorverwijzing van mijn huisarts nodig?
+              <span class="faq-item__icoon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-item__antwoord"
+                 id="antwoord-6">
+              <div class="faq-item__antwoord-inner">
+              <p>
+                Verdere info volgt binnenkort.
+              </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vraag 7 -->
+          <div class="faq-item reveal" role="listitem">
+            <button type="button" class="faq-item__vraag"
+                    id="vraag-7"
+                    aria-expanded="false"
+                    aria-controls="antwoord-7">
+              Hoe lang duurt een eerste consultatie?
+              <span class="faq-item__icoon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-item__antwoord"
+                 id="antwoord-7">
+              <div class="faq-item__antwoord-inner">
+              <p>
+                Een eerste consultatie duurt gemiddeld 30 tot 45 minuten. De arts neemt de tijd
+                voor een grondig klinisch onderzoek, bespreking van uw klachten en medische
+                voorgeschiedenis, en het opstellen van een diagnostisch en therapeutisch plan.
+              </p>
+              <p> Uw arts zal altijd zorgen voor
+                voldoende tijd om uw vragen te beantwoorden.
+              </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ===== CONTACT KAART ===== -->
+        <div class="cta-blok mt-3 reveal">
+          <h2>Heeft u nog een vraag?</h2>
+          <p>Staat uw vraag er niet bij? Neem gerust telefonisch contact op of maak direct een afspraak.</p>
+          <div class="cta-blok__knoppen">
+            <a href="https://mynexuz.be/afspraken/maak-afspraak?ziekenhuisCode=AZSJ&amp;groupIdentifier=AZSJ_Afspraak%20maken&amp;beslissingsboom_vragenlijstCode=AZSJ_beslissingsboom_4026"
+               target="_blank" rel="noopener noreferrer"
+               class="knop"
+               aria-label="Online afspraak maken (opent externe website)">
+              Online afspraak maken
+            </a>
+            <a href="tel:+3250452580" class="knop knop--omrand">
+              Bel AZ Sint-Jan
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+
+        <div>
+          <p class="footer__naam">Medisch Centrum Blauwpoorte</p>
+          <p class="footer__tagline">Ons doel is om u te helpen bij het beheersen en verminderen van pijn, voor een betere levenskwaliteit.</p>
+          <address class="footer__adres">
+            Patrick Sercudreef 39/0001<br>
+            8870 Izegem
+          </address>
+        </div>
+
+        <div>
+          <p class="footer__titel">Navigatie</p>
+          <ul class="footer__nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aanbod.html">Ons Aanbod</a></li>
+            <li><a href="team.html">Ons Team</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="doorverwijzing.html">Voor Artsen</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer__titel">Afspraak maken</p>
+          <ul class="footer__tel-lijst">
+            <li class="footer__tel-item">
+              <span>AZ Sint-Jan</span>
+              <a href="tel:+3250452580">+32 50 45 25 80</a>
+            </li>
+            <li class="footer__tel-item">
+              <span>AZ Sint-Lucas</span>
+              <a href="tel:+3250365925">+32 50 36 59 25</a>
+            </li>
+            <li class="footer__tel-item">
+              <span>Sint-Andries Tielt</span>
+              <a href="tel:+3251425726">+32 51 42 57 26</a>
+            </li>
+          </ul>
+          <div class="footer__online">
+            <a href="https://mynexuz.be/afspraken/maak-afspraak?ziekenhuisCode=AZSJ&amp;groupIdentifier=AZSJ_Afspraak%20maken&amp;beslissingsboom_vragenlijstCode=AZSJ_beslissingsboom_4026"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Online afspraak maken (opent externe website)">
+              Online afspraak →
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <p class="footer__titel">Openingsuren</p>
+          <p class="footer__status" id="open-status" hidden></p>
+          <div class="footer__uren">
+            <div class="footer__uren-rij"><span class="footer__uren-dag">Maandag</span><span class="footer__uren-tijd">18:00–20:30</span></div>
+            <div class="footer__uren-rij"><span class="footer__uren-dag">Dinsdag</span><span class="footer__uren-tijd gesloten">Gesloten</span></div>
+            <div class="footer__uren-rij"><span class="footer__uren-dag">Woensdag</span><span class="footer__uren-tijd">18:00–20:30</span></div>
+            <div class="footer__uren-rij"><span class="footer__uren-dag">Donderdag</span><span class="footer__uren-tijd">13:30–18:00</span></div>
+            <div class="footer__uren-rij"><span class="footer__uren-dag">Vrijdag</span><span class="footer__uren-tijd">09:00–12:00</span></div>
+            <div class="footer__uren-rij"><span class="footer__uren-dag">Zaterdag</span><span class="footer__uren-tijd">09:00–12:00</span></div>
+            <div class="footer__uren-rij"><span class="footer__uren-dag">Zondag</span><span class="footer__uren-tijd gesloten">Gesloten</span></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="footer__bodem">
+        <p>&copy; <span id="copyright-jaar">2026</span> Medisch Centrum Blauwpoorte &mdash; Patrick Sercudreef 39/0001, 8870 Izegem</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
 </html>

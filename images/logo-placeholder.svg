@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Medisch Centrum Blauwpoorte logo">
+  <rect width="48" height="48" rx="10" fill="#EBF3FF"/>
+  <!-- Medical cross -->
+  <rect x="19" y="10" width="10" height="28" rx="3" fill="#1A56B0"/>
+  <rect x="10" y="19" width="28" height="10" rx="3" fill="#1A56B0"/>
+</svg>
