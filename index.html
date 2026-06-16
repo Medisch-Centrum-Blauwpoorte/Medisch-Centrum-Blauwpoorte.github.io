@@ -6,6 +6,7 @@
   <script>document.documentElement.classList.add('js');</script>
   <meta name="description" content="Medisch Centrum Blauwpoorte in Izegem — gespecialiseerde pijnkliniek. Maak online een afspraak of bel ons.">
   <meta name="google-site-verification" content="HVXaUaojSgxnLgEJo2lu3paptugJUto2oMAF3to3Tus" />
+  <link rel="canonical" href="https://www.medischcentrumblauwpoorte.be/index.html">
   <title>Medisch Centrum Blauwpoorte — Pijnkliniek Izegem</title>
   <link rel="icon" href="images/Web logo blauwpoorte.svg" type="image/svg+xml">
   <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
@@ -19,14 +20,15 @@
   <meta property="og:locale" content="nl_BE">
   <meta property="og:title" content="Medisch Centrum Blauwpoorte — Pijnkliniek Izegem">
   <meta property="og:description" content="Gespecialiseerde pijnkliniek in Izegem. Maak online een afspraak of bel ons.">
-  <meta property="og:image" content="images/buitenkant.jpg">
+  <meta property="og:url" content="https://www.medischcentrumblauwpoorte.be/index.html">
+  <meta property="og:image" content="https://www.medischcentrumblauwpoorte.be/images/buitenkant.jpg">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="icon" type="image/png" href="/fav/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="/fav/favicon.svg" />
-  <link rel="shortcut icon" href="/fav/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon.png" />
-  <link rel="manifest" href="/fav/site.webmanifest" />
+  <link rel="icon" type="image/png" href="fav/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="fav/favicon.svg" />
+  <link rel="shortcut icon" href="fav/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png" />
+  <link rel="manifest" href="fav/site.webmanifest" />
 
   <!-- Gestructureerde data (schema.org) -->
   <script type="application/ld+json">
@@ -51,6 +53,38 @@
       { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday",  "opens": "13:30", "closes": "18:00" },
       { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday",    "opens": "09:00", "closes": "12:00" },
       { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday",  "opens": "09:00", "closes": "12:00" }
+    ]
+  }
+  </script>
+
+  <!-- Organisatie + website (schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.medischcentrumblauwpoorte.be/#organisatie",
+        "name": "Medisch Centrum Blauwpoorte",
+        "url": "https://www.medischcentrumblauwpoorte.be/",
+        "logo": "https://www.medischcentrumblauwpoorte.be/images/Web logo blauwpoorte.svg",
+        "telephone": "+3251436770",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Patrick Sercudreef 39/0001",
+          "postalCode": "8870",
+          "addressLocality": "Izegem",
+          "addressCountry": "BE"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.medischcentrumblauwpoorte.be/#website",
+        "name": "Medisch Centrum Blauwpoorte",
+        "url": "https://www.medischcentrumblauwpoorte.be/",
+        "publisher": { "@id": "https://www.medischcentrumblauwpoorte.be/#organisatie" },
+        "inLanguage": "nl-BE"
+      }
     ]
   }
   </script>
